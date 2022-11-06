@@ -1,0 +1,55 @@
+.activities-sec {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    background-color: rgb(255, 255, 255);
+}
+.activities-sec h3{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-weight: bold;
+    color: rgb(74, 74, 74);
+}
+.activities-sec h3 span {
+    margin: 0;
+    padding-bottom:20px;
+    position: relative;
+}
+.activities-sec h3 span::after {
+    position: absolute;
+    background: linear-gradient(90deg, rgba(46,119,191,1) 0%, rgba(46,119,191,1) 5%, rgba(46,119,191,1) 19%, rgb(239, 245, 251) 19%, rgb(239, 245, 251) 22%, rgba(127,127,127,1) 22%, rgba(127,127,127,1) 100%);
+    height: 2px;
+    content: '';
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 95%;
+}
+
+ .activities-slick .slick-slider {
+    width: 100%;
+    margin: auto;
+    /* background: rgb(14, 13, 13); */
+}
+
+.activities-slick .slick-slider img {
+    width: 100%;
+    height: 200px;
+    max-height: 200px;
+}
+
+::ng-deep .activities-slick .slick-dots {
+    bottom: -50px;
+}
+::ng-deep .activities-slick .slick-dots li.slick-active button:before {
+    color: rgb(183, 147, 79);
+    opacity: 1;
+}
+::ng-deep .activities-slick .slick-dots li button:before {
+    font-size: 18px;
+}
+
+@media (max-width: 575.98px) {
+    .activities-sec h3{ 
+        font-size:18px ;
+    }
+}

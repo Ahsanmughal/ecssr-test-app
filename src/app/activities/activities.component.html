@@ -1,0 +1,20 @@
+<section class="activities-sec">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12">
+                <h3>
+                    <span>
+                        {{'activities.title' | translate}}
+                    </span>
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="activities-slick">
+        <ngx-slick-carousel class="carousel"  #slickModal="slick-carousel" [config]="slideConfig">
+            <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+                <img src="{{ slide.img }}" alt="">
+            </div>
+        </ngx-slick-carousel>
+    </div>
+</section>

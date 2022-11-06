@@ -1,0 +1,122 @@
+.footer-sec {
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+::ng-deep [dir=rtl] .footer-sec h3.title{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-weight: bold;
+    color: rgb(74, 74, 74);
+    text-align: right;
+    font-size: 40px;
+}
+
+::ng-deep [dir=ltr] .footer-sec h3.title{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-weight: bold;
+    color: rgb(74, 74, 74);
+    text-align: left;
+    font-size: 40px;
+}
+.footer-sec h3.title span {
+    margin: 0;
+    padding-bottom:20px;
+    position: relative;
+}
+.footer-sec h3.title span::after {
+    position: absolute;
+    background: linear-gradient(90deg, rgba(46,119,191,1) 0%, rgba(46,119,191,1) 5%, rgba(46,119,191,1) 19%, rgb(239, 245, 251) 19%, rgb(239, 245, 251) 22%, rgba(127,127,127,1) 22%, rgba(127,127,127,1) 100%);
+    height: 4px;
+    content: '';
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 95%;
+}
+
+.contactlist {
+    margin-top: 80px;
+}
+
+.contactlist li .img-circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    line-height: 37px;
+    background-color: #fff;
+}
+
+.contactlist li {
+    margin-bottom: 40px;
+}
+
+::ng-deep [dir=rtl] .contactlist li .contact-info {
+    margin-right: 1rem;
+    text-align: right;
+}
+
+::ng-deep [dir=ltr] .contactlist li .contact-info {
+    margin-left: 1rem;
+    text-align: left;
+}
+
+.contactlist li .contact-info h4 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: rgb(61, 163, 219);
+}
+
+.contactlist li .contact-info h5 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: rgb(147, 148, 149);
+}
+
+@media(max-width: 767.98px) {
+    .contactlist {
+        margin-top: 30px;
+    }
+    .footer-sec h3.title{ 
+        font-size: 22px;
+    }
+    .contactlist {
+        padding-right: 0px;
+    }
+    .contactlist li .contact-info h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: rgb(61, 163, 219);
+    }
+    
+    .contactlist li .contact-info h5 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        color: rgb(147, 148, 149);
+    }   
+}
+
+/* @media (max-width: 575.98px) {  }
+@media (max-width: 767.98px) { 
+
+} 
+@media (max-width: 1199.98px) {  }
+@media (max-width: 1399.98px) {  }
+*/
+@media (max-width: 991.98px) { 
+    ::ng-deep [dir="rtl"] .footer-sec h3.title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1199.98px) { 
+    ::ng-deep[dir="rtl"] .footer-sec h3.title {
+        font-size: 30px;
+    }
+ }
+
+@media (max-width: 1399.98px) { 
+    ::ng-deep [dir="rtl"] .footer-sec h3.title {
+        font-size: 30px;
+    }
+}

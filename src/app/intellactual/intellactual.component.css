@@ -1,0 +1,563 @@
+.intellactual-block {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+.intellactual-block h3 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.intellactual-block h3 span {
+    margin: 0;
+    padding-bottom:12px;
+    position: relative;
+}
+.intellactual-block h3 span::after {
+    position: absolute;
+    background: linear-gradient(90deg, rgba(46,119,191,1) 5%, rgba(46,119,191,1) 5%, rgba(46,119,191,1) 40%, rgb(239 245 251) 40%, rgba(239,245,251,1) 42%, rgba(127,127,127,1) 42%, rgba(127,127,127,1) 100%);
+    height: 2px;
+    content: '';
+    bottom: 0;
+    right: 0;
+    left: -10px;
+    width: 110%;
+}
+
+.mt-100 {
+    margin-top: 50px;
+}
+.intellactual-list .card {
+    max-width: 90%;
+    border-radius: 18px;
+    border: 1px solid rgb(239, 245, 251);
+    transition: box-shadow 0.2s ease-in-out, transform 0.35s ease-in-out;
+    max-height: 434px;
+}
+.intellactual-list .card:hover {
+    cursor: pointer;
+    box-shadow: 0 11px 11px 0 rgba(0, 0, 0,.16);
+    transform: translateY(-5px);
+}
+
+.intellactual-list .atheercard .card-body{
+    position: relative;
+}
+
+.intellactual-list .atheercard .card-body .overlay-img, 
+.intellactual-list .knowledgecard .card-body .overlay-img,
+.intellactual-list .librarycard .card-body .overlay-img{
+    position: absolute;
+    max-width: 110px;
+    top: 30%;
+    right: -10.5%;
+}
+
+.intellactual-list .atheercard .block1, .intellactual-block .knowledgecard .block2 {
+    background: hsla(240, 2%, 92%, 1);
+    background: linear-gradient(0deg, hsla(240, 2%, 92%, 1) 0%, hsla(180, 100%, 100%, 1) 100%);
+    background: -moz-linear-gradient(0deg, hsla(240, 2%, 92%, 1) 0%, hsla(180, 100%, 100%, 1) 100%);
+    background: -webkit-linear-gradient(0deg, hsla(240, 2%, 92%, 1) 0%, hsla(180, 100%, 100%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EAEAEB", endColorstr="#FEFFFF", GradientType=1 );
+    border: 1px solid #dedede; 
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 45px;
+}
+.intellactual-block .atheercard .block1 .small-img {
+    max-height: 50px;
+    display: block;
+    margin: 0px auto;
+}
+.intellactual-list .atheercard .brownbtn, .intellactual-list .knowledgecard .brownbtn, .intellactual-list .librarycard .brownbtn {
+    background-color: rgb(183, 147, 79);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    display: block;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+.intellactual-list .atheercard .smallbtn {
+    background: rgb(171,169,170);
+    background: linear-gradient(90deg, rgba(171,169,170,1) 88%, rgba(60,163,221,1) 88%, rgba(60,163,221,1) 100%);
+    color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    height: 25px;
+    width: 100px;
+    display: block;
+    line-height: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0px auto;
+    margin-bottom:  10px;
+}
+
+
+.intellactual-list .atheercard .author{
+    color: rgb(183, 147, 79);
+    text-align: center;
+    margin-bottom: 30px;
+}
+::ng-deep [dir=rtl] .intellactual-list .atheercard .title{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(92,92,92);
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+::ng-deep [dir=ltr] .intellactual-list .atheercard .title{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(92,92,92);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.intellactual-block .atheercard .waveblock {
+    position:relative;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 20px;
+}
+.intellactual-block .atheercard .waveblock .bluewave-img {
+    max-width: 100%;
+    height: 80px;
+}
+
+.intellactual-block .atheercard .waveblock .circle-gray {
+    max-height: 45px;
+    position: absolute;
+    top: 2px;
+    left: 45%;
+}
+.intellactual-block .atheercard .waveblock .node {
+    max-width: 41px;
+    position: absolute;
+    top: 5px;
+    left: 46%;
+}
+
+.intellactual-list .knowledgecard .title, .intellactual-list .librarycard .title {
+    font-size: 18px;
+    text-align: center;
+    color: rgb(92,92,92);
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+
+.intellactual-list .knowledgecard .title span {
+    margin: 0;
+    padding-bottom:20px;
+    position: relative;
+}
+.intellactual-list .knowledgecard .title span::after {
+    content: '\00a0';
+    background-image:radial-gradient(at 50% 0, rgb(192,192,192) 0%, rgb(223,223,223) 50%, transparent 75%);
+    background-size: 100% 10px;
+    background-repeat: no-repeat;
+    float:left;
+    width:100%;
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+}
+.intellactual-list .librarycard .author{
+    margin-top: 30px;
+ }
+
+.intellactual-list .knowledgecard .author, .intellactual-list .librarycard .author{
+    color: rgb(183, 147, 79);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.intellactual-block .knowledgecard .block2, .intellactual-block .librarycard .block3 {
+    background: rgb(255, 255, 255);
+    border: 1px solid #dedede; 
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 45px;
+    min-height: 330px;
+}
+.intellactual-block .librarycard .block3 { 
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: rgb(201,201,201);
+    background: linear-gradient(0deg, rgba(201,201,201,1) 4%, rgba(215,215,215,1) 7%, rgba(246,246,246,1) 12%, rgba(255,255,255,1) 100%);
+}
+.intellactual-block .knowledgecard .block2 .header {
+    height: 50px;
+    background-color: rgb(241, 244, 246);
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.intellactual-block .knowledgecard .block2 .header .episode{
+    position: absolute;
+    left: 27%;
+    max-width: 100px;
+}
+
+.intellactual-block .knowledgecard .block2 .header .numberblock {
+    background-color: rgb(60,163,221);
+    height: 50px;
+    width: 60px;
+    text-align: center;
+    border-right: 7px solid rgb(187, 157, 107);
+    color: #fff;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 43px;
+}
+
+.intellactual-block .knowledgecard .block2 .header .ribbon {
+    position: relative;
+    margin-bottom: 30px;
+}
+.intellactual-block .knowledgecard .block2 .header .ribbon .ribbongray {
+    position: absolute;
+    top: -6.1px;
+    left: 60%;
+}
+
+.intellactual-block .knowledgecard .block2 .header .ribbon .ribbongray span {
+    position: relative;
+    display: block;
+    text-align: center;
+    background: rgb(222, 222, 222);
+    font-size: 14px;
+    line-height: 1;
+    padding: 36px 8px 24px;
+    border-top-right-radius: 8px;
+    width: 100px;
+}
+.intellactual-block .knowledgecard .block2 .header .ribbon .ribbongray .item .user {
+    max-width: 70px;
+}
+.intellactual-block .knowledgecard .block2 .header .ribbon .ribbongray .item .thumbs {
+    max-width: 60px;
+    position: absolute;
+    right: 60px;
+    top: 79px;
+}
+
+.intellactual-block .knowledgecard .block2 .header .ribbon .ribbongray .item:before {
+    height: 6px;
+    width: 6px;
+    left: -6px;
+    top: 0;
+    background: rgb(138,138,138);
+    position: absolute;
+    content: "";
+}
+
+.intellactual-block .knowledgecard .block2 .header .ribbon .ribbongray .item:after {
+    height: 6px;
+    width: 8px;
+    left: -8px;
+    top: 0;
+    border-radius: 8px 8px 0 0;
+    background: rgb(138, 138, 138);
+    position: absolute;
+    content: "";
+}
+
+.intellactual-block .knowledgecard .block2 .header .ribbon .ribbongray:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 10px solid rgb(222,222,222);
+}
+
+
+::ng-deep [dir=rtl] .intellactual-list .knowledgecard .smallbtn,  .intellactual-list .librarycard .smallbtn{
+    background: rgb(183,147,79);
+    color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    height: 30px;
+    width: 180px;
+    display: block;
+    line-height: 27px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0px auto;
+    margin-bottom:  10px;
+}
+
+::ng-deep [dir=ltr] .intellactual-list .knowledgecard .smallbtn,  .intellactual-list .librarycard .smallbtn{
+    background: rgb(183,147,79);
+    color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    height: 30px;
+    width: 220px;
+    display: block;
+    line-height: 27px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0px auto;
+    margin-bottom:  10px;
+}
+
+.intellactual-list .librarycard .smallbtn{
+    width: 150px;
+ }
+
+.intellactual-list .knowledgecard .roundplaybtn, .intellactual-list .librarycard .roundplaybtn {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    line-height: 26px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    text-align: center;
+    background: radial-gradient(rgb(183,147,70) 40%, rgb(142 108 83));
+}
+
+.intellactual-list .knowledgecard .roundplaybtn i {
+    font-size: 10px;
+}
+
+
+.intellactual-list .knowledgecard .footer,
+.intellactual-list .librarycard .footer, 
+.intellactual-list .atheercard .footer {
+    position: relative;
+}
+
+.intellactual-list .knowledgecard .footer .gotobtn, 
+.intellactual-list .atheercard .footer .gotobtn,
+.intellactual-list .librarycard .footer .gotobtn{
+    background-color: rgb(121, 188, 244);
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    line-height: 37px;
+    border-radius: 50%;
+    position: absolute;
+    left: 12px;
+    top: 6px;
+    text-align: center;
+}
+
+::ng-deep [dir=rtl] .intellactual-list .librarycard .card-buttons-block {
+    position: relative;
+    margin-top: 80px;
+    border-top: 1px solid #dedede;
+    padding-top: 8px;
+}
+::ng-deep [dir=ltr] .intellactual-list .librarycard .card-buttons-block {
+    position: relative;
+    margin-top: 40px;
+    border-top: 1px solid #dedede;
+    padding-top: 8px;
+}
+/* 
+* blankcards
+*/
+
+.blankcards .card {
+    max-width: 98%;
+    margin-bottom: 20px;
+    border-radius: 24px;
+    border: 1px solid rgb(239, 245, 251);
+    position: relative;
+    min-height: 150px;
+    transition: box-shadow 0.2s ease-in-out, transform 0.35s ease-in-out;
+}
+.blankcards .card:hover {
+    cursor: pointer;
+    box-shadow: 0 11px 11px 0 rgba(0, 0, 0,.16);
+    transform: translateY(-5px);
+}
+.blankcards .card img {
+    width: 84px;
+    height: 82px;
+    position: absolute;
+    right: -28px;
+    top: 35px;
+}
+
+@media (max-width: 1399.98px) {
+    .intellactual-list .atheercard .card-body .overlay-img, 
+    .intellactual-list .knowledgecard .card-body .overlay-img,
+    .intellactual-list .librarycard .card-body .overlay-img{
+        position: absolute;
+        max-width: 100px;
+        top: 30%;
+        right: -11.5%;
+    }
+    ::ng-deep [dir=ltr] .intellactual-list .librarycard .card-buttons-block {
+        margin-top: 60px !important;
+    }
+    ::ng-deep [dir=rtl] .intellactual-list .librarycard .card-buttons-block {
+        margin-top: 90px;
+    }
+    ::ng-deep [dir=rtl] .intellactual-list .librarycard .author{
+        margin-top: 10px;
+        text-align: right !important;
+    }
+    ::ng-deep [dir=rtl] .intellactual-list .librarycard .title {
+        text-align: right !important;
+        font-size: 13px !important;
+    }
+    .intellactual-list .knowledgecard .roundplaybtn, .intellactual-list .librarycard .roundplaybtn {
+        left: 0px;
+    }
+    .intellactual-list .atheercard .brownbtn,
+    .intellactual-list .knowledgecard .brownbtn,
+    .intellactual-list .librarycard .brownbtn {
+        font-size: 18px;
+    }
+    .intellactual-list .librarycard .author{
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    .intellactual-block .knowledgecard .block2 .header .episode{
+        position: absolute;
+        left: 27%;
+        max-width: 70px;
+    }
+    .intellactual-block .knowledgecard .block2 .header .ribbon .ribbongray span {
+        position: relative;
+        width: 80px;
+    }
+    .intellactual-block .knowledgecard .block2 .header .ribbon .ribbongray:after {
+        border-left: 27px solid transparent;
+    }
+    .intellactual-block .knowledgecard .block2 .header .ribbon .ribbongray .item .user {
+        max-width: 50px;
+    }
+    .intellactual-block .knowledgecard .block2 .header .ribbon .ribbongray .item .thumbs {
+        max-width: 50px;
+        position: absolute;
+        right: 48px;
+        top: 56px;
+    }
+}
+
+@media (max-width: 1199.98px) { 
+    .intellactual-list .card {
+        max-width: 100%;
+        border-radius: 18px;
+        border: 1px solid rgb(239, 245, 251);
+        transition: box-shadow 0.2s ease-in-out, transform 0.35s ease-in-out;
+        margin-bottom: 20px;
+    }
+    .intellactual-list .atheercard .title {
+        font-size: 16px;
+        text-align: center;
+        color: rgb(92,92,92);
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+    .intellactual-list .atheercard .card-body .overlay-img, 
+    .intellactual-list .knowledgecard .card-body .overlay-img,
+    .intellactual-list .librarycard .card-body .overlay-img{
+        position: absolute;
+        max-width: 80px;
+        top: 35%;
+        right: -8%;
+    }
+    .intellactual-list .librarycard .card-buttons-block {
+        margin-top: 80px;
+    }
+    .intellactual-block .knowledgecard .block2, .intellactual-block .librarycard .block3 {
+        background: rgb(255, 255, 255);
+        border: 1px solid #dedede; 
+        margin-left: 0px;
+        margin-bottom: 20px;
+        margin-right: 45px;
+        min-height: 330px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .intellactual-list .card {
+        max-width: 100%;
+    }
+    .intellactual-block {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .blankcards .card img {
+        right: -16px;
+    }
+    .intellactual-list .atheercard .card-body .overlay-img, 
+    .intellactual-list .knowledgecard .card-body .overlay-img,
+    .intellactual-list .librarycard .card-body .overlay-img{
+        position: absolute;
+        max-width: 70px;
+        top: 30%;
+        right: -4%;
+        display: none;
+    }
+
+    .intellactual-block h3 {
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .intellactual-list .librarycard .card-buttons-block {
+        margin-top: 0px;
+    }
+    .intellactual-block .librarycard .block3 {
+        padding-top: 15px;
+        min-height: auto;
+    }
+    .intellactual-list .knowledgecard .smallbtn,  
+    .intellactual-list .librarycard .smallbtn{
+        font-size: 14px;
+    }
+    .intellactual-list .knowledgecard .roundplaybtn, .intellactual-list .librarycard .roundplaybtn {
+        left: 0px;
+    }
+    .intellactual-list .atheercard .brownbtn,
+    .intellactual-list .knowledgecard .brownbtn,
+    .intellactual-list .librarycard .brownbtn {
+        font-size: 13px;
+    }
+
+    .blankcards .card {
+        max-width: 98%;
+        margin-bottom: 20px;
+        border-radius: 14px;
+        border: 1px solid rgb(239, 245, 251);
+        position: relative;
+        min-height: 120px;
+        transition: box-shadow 0.2s ease-in-out, transform 0.35s ease-in-out;
+    }
+    .blankcards .card img {
+        width: 54px;
+        height: 52px;
+        position: absolute;
+        right: -15px;
+        top: 35px;
+    }
+    .intellactual-block .knowledgecard .block2, .intellactual-block .librarycard .block3 {
+        margin-left: 0px;
+        margin-right: 0px;
+        min-height: auto;
+    }
+    .intellactual-list .atheercard .block1{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}

@@ -1,0 +1,365 @@
+.timeline-sec {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #fff;
+    min-height: 500px;
+}
+
+.timeline-sec h3 {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-weight: bold;
+    color: rgb(74, 74, 74);
+    font-size: 40px;
+}
+
+.timeline-sec h3 span {
+    margin: 0;
+    padding-bottom:20px;
+    position: relative;
+    padding-right: 60px;
+}
+.timeline-sec h3 span::after {
+    position: absolute;
+    background: linear-gradient(90deg, rgba(46,119,191,1) 0%, rgba(46,119,191,1) 5%, rgba(46,119,191,1) 19%, rgb(239, 245, 251) 19%, rgb(239, 245, 251) 22%, rgba(127,127,127,1) 22%, rgba(127,127,127,1) 100%);
+    height: 4px;
+    content: '';
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+
+.timeline {
+    position: relative;
+}
+  
+::ng-deep [dir=rtl] .timeline::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: rgb(217, 217, 217);
+    top: 15px;
+    bottom: 0;
+    right: -6px;
+    margin-left: -3px;
+}
+
+::ng-deep [dir=ltr] .timeline::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: rgb(217, 217, 217);
+    top: 15px;
+    bottom: 0;
+    right: 0;
+    left: -80px;
+    margin-left: -3px;
+}
+
+.questionsblock {
+    padding-right: 60px;
+}
+
+.questionsblock .heading {
+    font-size: 30px;
+    color: rgba(46,119,191,1);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.questionsblock .statement {
+    font-size: 28px;
+    color: rgb(127, 127, 127);
+    max-width: 85%;
+}
+  
+.box {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+  
+::ng-deep [dir=rtl] .box::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: rgb(217,217,217);
+    border: 4px solid rgb(217,217,217);
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+::ng-deep [dir=rtl] .itemactive::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: rgb(183, 147, 79);
+    border: 4px solid rgb(183, 147, 79) ;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+
+::ng-deep [dir=ltr] .box::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 0px;
+    left: -94px;
+    background-color: rgb(217,217,217);
+    border: 4px solid rgb(217,217,217);
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+::ng-deep [dir=ltr] .itemactive::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 0px;
+    left: -94px;
+    background-color: rgb(183, 147, 79);
+    border: 4px solid rgb(183, 147, 79) ;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+
+  
+.left {
+    left: 0;
+}
+  
+.right {
+    left: 50%;
+}
+
+.right::after {
+    left: -16px;
+}
+  
+.content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+
+.timeline-content {
+    position: absolute;
+    top: 40px;
+    right: 160px;
+    font-size: 30px;
+    color: rgb(191,191,191);
+}
+
+.timeline-content h4 {
+    color: rgb(183, 147, 79);
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.timeline-content h4 span {
+    margin: 0;
+    padding-bottom:10px;
+    position: relative;    
+}
+
+.timeline-content h4 span:after {
+    position: absolute;
+    background: linear-gradient(90deg, rgba(183, 147, 79,1) 0%, rgba(183, 147, 79,1) 5%, rgba(183, 147, 79,1) 19%, rgb(183, 147, 79) 19%, rgb(183, 147, 79) 22%, rgba(183, 147, 79) 22%, rgba(183, 147, 79,1) 100%);
+    height: 4px;
+    content: '';
+    bottom: -13px;
+    right: 0;
+    left: 0;
+    width: 150%;    
+}
+@media (max-width: 1399.98px) { 
+
+    .questionsblock .heading {
+        font-size: 20px;
+        color: rgba(46,119,191,1);
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .questionsblock .statement {
+        font-size: 18px;
+        color: rgb(127, 127, 127);
+        max-width: 85%;
+    }
+    .timeline-content h4 {
+        color: rgb(183, 147, 79);
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .timeline-content {
+        font-size: 20px;
+    }
+    .timeline-content img {
+        max-width: 60px;
+    }
+}
+
+@media (max-width: 991.98px) { 
+    .timeline-content {
+        position: absolute;
+        top: 10px;
+        right: 50px;
+        font-size: 18px;
+        color: rgb(191,191,191);
+    }
+ }
+@media (max-width: 1199.98px) { 
+    .timeline-content {
+        position: absolute;
+        top: 10px;
+        right: 50px;
+        font-size: 15px;
+        color: rgb(191,191,191);
+    }
+    .timeline-sec h3 {
+        margin-top: 30px;
+        margin-bottom: 60px;
+        font-weight: bold;
+        color: rgb(74, 74, 74);
+        font-size: 20px;
+    }
+    .timeline-sec h3 span {
+        margin: 0;
+        padding-bottom: 20px;
+        position: relative;
+        padding-right: 30px;
+    }
+    .questionsblock {
+        padding-right: 30px;
+    }
+    ::ng-deep [dir=ltr] .timeline::after {
+        content: '';
+        position: absolute;
+        width: 3px;
+        background-color: rgb(217, 217, 217);
+        top: 15px;
+        bottom: 0;
+        right: 0;
+        left: -65px;
+        margin-left: -3px;
+    }
+    ::ng-deep [dir=ltr] .box::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: 0px;
+        left: -79px;
+        background-color: rgb(217,217,217);
+        border: 4px solid rgb(217,217,217);
+        top: 15px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+    ::ng-deep [dir=ltr] .itemactive::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: 0px;
+        left: -79px;
+        background-color: rgb(183, 147, 79);
+        border: 4px solid rgb(183, 147, 79);
+        top: 15px;
+        border-radius: 50%;
+        z-index: 2;
+    }
+}
+
+@media (max-width: 575.98px) { 
+    .timeline-sec h3 span {
+        margin: 0;
+        padding-bottom:10px;
+        position: relative;
+        padding-right: 30px;
+    }
+    .timeline-sec h3 {
+        font-size: 24px;
+    }
+    .questionsblock {
+        padding-right: 30px;
+    }
+    .questionsblock .statement {
+        max-width: 100%;
+    }
+    ::ng-deep [dir=ltr] .timeline-content {
+        position: absolute;
+        top: 40px;
+        right: 0px;
+        left: 50px;
+        font-size: 16px;
+        color: rgb(191,191,191);
+    }
+    .timeline-content h4 span:after {
+        width: 111%;
+    }
+
+    ::ng-deep [dir=ltr] .box::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: 0px;
+        left: -14px;
+        background-color: rgb(217,217,217);
+        border: 4px solid rgb(217,217,217);
+        top: 15px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+    
+    ::ng-deep [dir=ltr] .itemactive::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: 0px;
+        left: -14px;
+        background-color: rgb(183, 147, 79);
+        border: 4px solid rgb(183, 147, 79) ;
+        top: 15px;
+        border-radius: 50%;
+        z-index: 2;
+    }
+    ::ng-deep [dir=ltr] .timeline::after {
+        content: '';
+        position: absolute;
+        width: 3px;
+        background-color: rgb(217, 217, 217);
+        top: 15px;
+        bottom: 0;
+        right: 0;
+        left: 0px;
+        margin-left: -3px;
+    }
+
+    ::ng-deep [dir=ltr] .timeline-content h4 {
+        color: rgb(183, 147, 79);
+        font-size: 13px !important;
+        margin-bottom: 40px;
+    }
+}

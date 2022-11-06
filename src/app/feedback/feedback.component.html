@@ -1,0 +1,31 @@
+<section class="feedback-sec">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12">
+                <h3 class="title">
+                    <span>
+                        {{'feedback.title' | translate}}
+                    </span>
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <ngx-slick-carousel class="carousel feedback-carousel"  #feedbackslickModal="slick-carousel"  [config]="feedbackslideConfig">
+            <div ngxSlickItem *ngFor="let slide of feedbacklist" class="slide">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="profilecard">
+                            <img [src]="slide.img" class="d-block w-100"/>
+                            <h3 class="name">{{slide.name}}</h3>
+                            <h4 class="school">{{slide.school}}</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <blockquote>{{slide.text}}</blockquote>
+                    </div>
+                </div>
+            </div>
+        </ngx-slick-carousel>
+    </div>
+</section>

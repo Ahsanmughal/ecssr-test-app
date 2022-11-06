@@ -1,0 +1,31 @@
+<section class="timeline-sec">
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <h3>
+                <span>
+                    {{'timeline.title' | translate}}
+                </span>
+            </h3>
+            <div class="questionsblock">
+                <h4 class="heading">{{'timeline.questionheading' | translate}}</h4>
+                <h5 class="statement">{{'timeline.questionstatement' | translate}}</h5>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="timeline">
+                <div class="box left" *ngFor="let item of timelinelist; let i = index" [class.itemactive]="selectedIndex === i" (click)="settimelinedata(item, i)">
+                    <div class="content">
+                    </div>
+                </div>
+                <div class="timeline-content" *ngIf="timelinecontent">
+                    <h4>
+                        <span>
+                            <img src="../../assets/images/ecssr.png"/> {{'timeline.listheading' | translate}}
+                        </span>
+                    </h4>
+                    {{timelinecontent.value | translate}}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

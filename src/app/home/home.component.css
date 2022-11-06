@@ -1,0 +1,10 @@
+.max-container {
+    margin: 0px auto;
+    max-width: 1800px;
+    display: block;
+}
+
+app-header {
+    z-index: 1030;
+    height: 75px;
+}

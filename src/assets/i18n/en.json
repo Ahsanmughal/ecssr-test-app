@@ -1,0 +1,136 @@
+{
+    "node": {
+        "Emirates Thinkers Members": "Emirates Thinkers Members"
+    },
+    "intellactual": {
+        "Browse Intellectual Output": "Browse Intellectual Output",
+        "blockone": {
+            "btntext": "Raise Knowledge",
+            "title": "The technical summit of self-driving vehicles",
+            "author": "Syed Khalfan Al Zahri",
+            "smbtntext": "Listen"
+         },
+         "blocktwo": {
+            "btntext": "Knowledge FingerPrint",
+            "title": "Hydrogen Economy",
+            "author": "Ali Sultan ALi Al-Mansoori",
+            "smbtntext": "Watch This Episode"
+         },
+         "blockthree": {
+            "btntext": "Emirates Thinkers Library",
+            "title": "The National Security of the United Arab Emirates: a study of the security reality and its review",
+            "author": "Abdullah Salm bin Hamduah Al-Katbi",
+            "smbtntext": "Looking"
+        }
+    },
+    "timeline": {
+        "title":"UAE Thinkers Journey",
+        "questionheading":"Why thinkers of the Emirates?",
+        "questionstatement": "'Emirates Thinkers' is a pioneering national project, launched in January 2022 at Expo 2020 Dubai by the Emirates Center for Strategic Studies and Research; With the aim of supporting Emirati thinkers and researchers",
+        "listheading":"Committee meeting",
+        "list": [
+           {
+              "year":"2017",
+              "value":" 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident,"
+           },
+           {
+              "year":"2018",
+              "value":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. "
+           },
+           {
+              "year":"2019",
+              "value":"t was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop"
+           },
+           {
+              "year":"2020",
+              "value":"'Emirates Thinkers' is a pioneering national project, launched in January 2020 at Expo 2020 Dubai by the Emirates Center"
+           },
+           {
+              "year":"2021",
+              "value":" when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,"
+           },
+           {
+              "year":"2022",
+              "value":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+           }
+        ]
+     },
+    "thinkers": {
+        "heading": "UAE thinkers in numbers",
+        "list": [
+            {
+                "title": "Raise Knowledge",
+                "number": 54,
+                "image": "../../assets/images/atheer-filled.png"
+            },
+            {
+                "title": "knowledge fingerprint",
+                "number": 62,
+                "image": "../../assets/images/episodies-filled.png"
+            },
+            {
+                "title": "Intellectual Lights",
+                "number": 53,
+                "image": "../../assets/images/edaat-filled.png"
+            },
+            {
+                "title": "Emirates Thinkers Library",
+                "number": 82,
+                "image": "../../assets/images/1.png"
+            },
+            {
+                "title": "Memberships",
+                "number": 64,
+                "image": "../../assets/images/user-circle.png"
+            },
+            {
+                "title": "Videos",
+                "number": 62,
+                "image": "../../assets/images/videos-filled.png"
+            },
+            {
+                "title": "Research",
+                "number": 53,
+                "image": "../../assets/images/researches-filled.png"
+            },
+            {
+                "title": "Articles",
+                "number": 82,
+                "image": "../../assets/images/articles-filled.png"
+            }
+        ]
+    },
+    "activities":{
+        "title":"UAE Thinkers Activities" 
+    },
+    "feedback": {
+        "title": "They said about UAE thinkers",
+        "profile": [
+            {
+                "name": "Prof. Dr. Abdullatif Mohammed Al Shamsi",
+                "school": "Academic - Engineering and Science",
+                "text": "An innovative visual program that hosts Emirati researchers and academics through a series of episodes and seasons of a scientific and knowledge nature that contribute to the delivery of scientific knowledge in an interesting and interesting manner. It deals with various concepts and topics such as climate, energy, cyber security and other strategic topics with the aim of spreading scientific knowledge among members of society of all categories and enriching Arab visual content in the field of science and knowledge.",
+                "img": "../../assets/images/profile1.png"
+            },
+            {
+                "name": "Prof. Dr. Abdullatif Mohammed Al Shamsi",
+                "school": "Academic - Engineering and Science",
+                "text": "An innovative visual program that hosts Emirati researchers and academics through a series of episodes and seasons of a scientific and knowledge nature that contribute to the delivery of scientific knowledge in an interesting and interesting manner. It deals with various concepts and topics such as climate, energy, cyber security and other strategic topics with the aim of spreading scientific knowledge among members of society of all categories and enriching Arab visual content in the field of science and knowledge.",
+                "img": "../../assets/images/profile2.png"
+            }
+        ]
+    },
+    "strategic":{
+        "title": "Our strategic partners"
+    },
+     "connect": {
+        "title": "Connect with us",
+        "addresslabel": "The Address",
+        "addressvalue": "Muroor Street - Abu Dhabi",
+        "emaillabel":"E-mail",
+        "emailvalue":"mufakiru_alemarat@ecssr.ae",
+        "telephonelabel": "Telephone number",
+        "telephonevalue": "024044444"
+    }
+
+ }
